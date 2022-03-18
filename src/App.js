@@ -52,11 +52,11 @@ const handleSubmit=event=>{
         <RecipeCard
         key={recipe.idMeal}
         recipe={recipe}
-
         
         />
       )):"No Recipes!"}
-             </div>
+      
+       </div>
       </div>
   )
 
@@ -64,5 +64,3 @@ const handleSubmit=event=>{
 
 
 export default App
-hi
-
