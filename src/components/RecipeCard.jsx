@@ -16,7 +16,7 @@ const RecipeCard = ({recipe}) => {
         <div className="card-body">
         <span className="category">{strCategory}</span>
         <h3>{strMeal}</h3>
-        <a href={"https://www.themealdb.com/meal/"+idMeal}  style={{ textDecoration: 'none',color:'black' }} target="_blank">Ingredients</a>
+        <a href={"https://www.themealdb.com/meal/"+idMeal}  style={{ textDecoration: 'none',color:'black' }} target="_blank">Ingredients  List</a>
         
         </div>
         </div>
