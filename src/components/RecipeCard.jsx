@@ -19,6 +19,8 @@ const RecipeCard = ({recipe}) => {
         <a href={"https://www.themealdb.com/meal/"+idMeal}  style={{ textDecoration: 'none',color:'black' }} target="_blank">Ingredients  List</a>
         
         </div>
+
+        
         </div>
     )
 }
